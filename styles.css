@@ -1,0 +1,42 @@
+body{
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    font-size: 16px;
+    padding-top: 30px;
+  }
+
+  header{
+    text-align: center;
+   
+  }
+  
+  .bg-primary
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: blue;
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    align-self: center;
+    padding: 2px 5px;
+    color: blue;
+    width: 300px;
+    height: 300px;
+  }
+
+
+img{
+    max-height: 100px;
+    cursor: pointer;
+  }
+
+    
