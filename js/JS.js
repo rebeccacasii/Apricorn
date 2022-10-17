@@ -84,8 +84,8 @@ function buildVars(){
       resistance: ['steel'],
       img: {
         default: "http://vignette2.wikia.nocookie.net/all-anime-characters/images/7/7b/Cute_pikachu_with_hat_by_mlpochea-d63xlom.png/revision/latest?cb=20150108111832",
-        front: "http://rs1263.pbsrc.com/albums/ii631/Pokemon-Vampire-Knight-lover/pikachu_.gif~c200",
-        back: "http://vignette4.wikia.nocookie.net/pokemon/images/5/5b/Pikachu_Back_XY.gif/revision/latest?cb=20141009080948"
+        front: "https://play.pokemonshowdown.com/sprites/ani-back/pikachu.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/pikachu.gif"
       },
       hp: {
         current: 500,
@@ -133,8 +133,8 @@ function buildVars(){
       resistance: ['grass'],
       img: {
         default: "http://img3.wikia.nocookie.net/__cb20150330015216/pokemon/images/f/f5/004Charmander_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png",
-        front: "http://rs772.pbsrc.com/albums/yy9/HybridRainbow88/Charmander.gif~c200",
-        back: "http://vignette1.wikia.nocookie.net/pokemon/images/2/23/Charmander_Back_XY.gif/revision/latest?cb=20141009063457"
+        front: "https://play.pokemonshowdown.com/sprites/ani/charmander.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/charmander.gif"
       },
       hp: {
         current: 500,
@@ -182,8 +182,8 @@ function buildVars(){
       resistance: ['normal','fire'],
       img: {
         default: "http://vignette3.wikia.nocookie.net/ssbb/images/7/79/Squirtle_Rojo_Fuego_y_Verde_Hoja.png/revision/latest?cb=20130907041944&path-prefix=es",
-        front: "https://66.media.tumblr.com/ddd22fe10a485ed56a46d958c058a970/tumblr_n9lnpepqkW1scncwdo1_500.gif",
-        back: "http://vignette3.wikia.nocookie.net/pokemon/images/d/d8/Squirtle_XY_Back_Sprite.gif/revision/latest?cb=20141031154426"
+        front: "https://play.pokemonshowdown.com/sprites/ani/squirtle.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/squirtle.gif"
       },
       hp: {
         current: 500,
@@ -231,8 +231,8 @@ function buildVars(){
       resistance: ['water','psychic'],
       img: {
         default: "http://vignette4.wikia.nocookie.net/pokemon/images/8/81/001Bulbasaur_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png/revision/latest?cb=20150105223818",
-        front: "https://media.giphy.com/media/iIWW4BM6nNWTu/giphy.gif",
-        back: "http://rs425.pbsrc.com/albums/pp335/Grasaldrea/ShinyBulbasauranimatedback.gif~c200",
+        front: "https://play.pokemonshowdown.com/sprites/ani/bulbasaur.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/bulbasaur.gif",
         deranged: "http://rs522.pbsrc.com/albums/w348/Richtoon18/b3617568f13aa750c57eacc45d0b2da7.gif~c200",
         sleep: "https://31.media.tumblr.com/4dd7682db26ac687ef81f0dd06794652/tumblr_msesq5uAIk1r93jsro1_500.gif"
       },
@@ -282,8 +282,8 @@ function buildVars(){
       resistance: [],
       img: {
         default: "http://clipart.toonarific.com/data/media/11/pokemon066.gif",
-        front: "http://graphics.tppcrpg.net/xy/normal/066F.gif",
-        back:  "http://pokeunlock.com/wp-content/uploads/2015/01/machop-2.gif"
+        front: "https://play.pokemonshowdown.com/sprites/ani/machop.gif",
+        back:  "https://play.pokemonshowdown.com/sprites/ani-back/machop.gif"
       },
       hp: {
         current: 500,
@@ -316,6 +316,261 @@ function buildVars(){
         },
         {
           name: "hundred furious punches",
+          hp: randomNum(160, 130),
+          avail: {
+            total: 2,
+            remaining: 2
+          }
+        }
+      ]
+    },
+    {
+      name: "ponyta",
+      type: 'fire',
+      weakness: ['fire','grass','ice'],
+      resistance: ['water','rock','ground'],
+      img: {
+        default: "http://vignette4.wikia.nocookie.net/pokemon/images/8/81/001Bulbasaur_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png/revision/latest?cb=20150105223818",
+        front: "https://play.pokemonshowdown.com/sprites/ani/ponyta.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/ponyta.gif",
+        deranged: "http://rs522.pbsrc.com/albums/w348/Richtoon18/b3617568f13aa750c57eacc45d0b2da7.gif~c200",
+        sleep: "https://31.media.tumblr.com/4dd7682db26ac687ef81f0dd06794652/tumblr_msesq5uAIk1r93jsro1_500.gif"
+      },
+      hp: {
+        current: 500,
+        total: 500
+      },
+      attacks: [
+        {
+          name: "tackle",
+          hp: randomNum(40,20),
+          avail: {
+            total: 30,
+            remaining: 30
+          }
+        },
+        {
+          name: "flame charge",
+          hp: randomNum(60,45),
+          avail: {
+            total: 10,
+            remaining: 10
+          }
+        },
+        {
+          name: "fire spin",
+          hp: randomNum(75,60),
+          avail: {
+            total: 5,
+            remaining: 5
+          }
+        },
+        {
+          name: "flare blitz",
+          hp: randomNum(160, 130),
+          avail: {
+            total: 2,
+            remaining: 2
+          }
+        }
+      ]
+    },
+    {
+      name: "snorlax",
+      type: 'normal',
+      weakness: ['fire','ice'],
+      resistance: ['fighting'],
+      img: {
+        default: "http://vignette4.wikia.nocookie.net/pokemon/images/8/81/001Bulbasaur_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png/revision/latest?cb=20150105223818",
+        front: "https://play.pokemonshowdown.com/sprites/ani/snorlax.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/snorlax.gif",
+        deranged: "http://rs522.pbsrc.com/albums/w348/Richtoon18/b3617568f13aa750c57eacc45d0b2da7.gif~c200",
+        sleep: "https://31.media.tumblr.com/4dd7682db26ac687ef81f0dd06794652/tumblr_msesq5uAIk1r93jsro1_500.gif"
+      },
+      hp: {
+        current: 500,
+        total: 500
+      },
+      attacks: [
+        {
+          name: "flail",
+          hp: randomNum(40,20),
+          avail: {
+            total: 30,
+            remaining: 30
+          }
+        },
+        {
+          name: "snore",
+          hp: randomNum(60,45),
+          avail: {
+            total: 10,
+            remaining: 10
+          }
+        },
+        {
+          name: "hammer arm",
+          hp: randomNum(75,60),
+          avail: {
+            total: 5,
+            remaining: 5
+          }
+        },
+        {
+          name: "giga impact",
+          hp: randomNum(160, 130),
+          avail: {
+            total: 2,
+            remaining: 2
+          }
+        }
+      ]
+    },
+    {
+      name: "eevee",
+      type: 'normal',
+      weakness: ['ghost'],
+      resistance: ['fighting'],
+      img: {
+        default: "http://vignette4.wikia.nocookie.net/pokemon/images/8/81/001Bulbasaur_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png/revision/latest?cb=20150105223818",
+        front: "https://play.pokemonshowdown.com/sprites/ani/eevee.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/eevee.gif",
+        deranged: "http://rs522.pbsrc.com/albums/w348/Richtoon18/b3617568f13aa750c57eacc45d0b2da7.gif~c200",
+        sleep: "https://31.media.tumblr.com/4dd7682db26ac687ef81f0dd06794652/tumblr_msesq5uAIk1r93jsro1_500.gif"
+      },
+      hp: {
+        current: 500,
+        total: 500
+      },
+      attacks: [
+        {
+          name: "tail whip",
+          hp: randomNum(40,20),
+          avail: {
+            total: 30,
+            remaining: 30
+          }
+        },
+        {
+          name: "bite",
+          hp: randomNum(60,45),
+          avail: {
+            total: 10,
+            remaining: 10
+          }
+        },
+        {
+          name: "charm",
+          hp: randomNum(75,60),
+          avail: {
+            total: 5,
+            remaining: 5
+          }
+        },
+        {
+          name: "last resort",
+          hp: randomNum(160, 130),
+          avail: {
+            total: 2,
+            remaining: 2
+          }
+        }
+      ]
+    },
+    {
+      name: "pidgey",
+      type: 'normal',
+      weakness: ['grass','bug'],
+      resistance: ['electric','rock','ice'],
+      img: {
+        default: "http://vignette4.wikia.nocookie.net/pokemon/images/8/81/001Bulbasaur_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png/revision/latest?cb=20150105223818",
+        front: "https://play.pokemonshowdown.com/sprites/ani/pidgey.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/pidgey.gif",
+        deranged: "http://rs522.pbsrc.com/albums/w348/Richtoon18/b3617568f13aa750c57eacc45d0b2da7.gif~c200",
+        sleep: "https://31.media.tumblr.com/4dd7682db26ac687ef81f0dd06794652/tumblr_msesq5uAIk1r93jsro1_500.gif"
+      },
+      hp: {
+        current: 500,
+        total: 500
+      },
+      attacks: [
+        {
+          name: "tackle",
+          hp: randomNum(40,20),
+          avail: {
+            total: 30,
+            remaining: 30
+          }
+        },
+        {
+          name: "feather dance",
+          hp: randomNum(60,45),
+          avail: {
+            total: 10,
+            remaining: 10
+          }
+        },
+        {
+          name:  "tailwind",
+          hp: randomNum(75,60),
+          avail: {
+            total: 5,
+            remaining: 5
+          }
+        },
+        {
+          name: "hurricane",
+          hp: randomNum(160, 130),
+          avail: {
+            total: 2,
+            remaining: 2
+          }
+        }
+      ]
+    },
+    {
+      name: "mewtwo",
+      type: 'psychic',
+      weakness: ['fighting','psychic'],
+      resistance: ['bug','ghost','dark'],
+      img: {
+        default: "http://vignette4.wikia.nocookie.net/pokemon/images/8/81/001Bulbasaur_Pokemon_Mystery_Dungeon_Explorers_of_Sky.png/revision/latest?cb=20150105223818",
+        front: "https://play.pokemonshowdown.com/sprites/ani/mewtwo.gif",
+        back: "https://play.pokemonshowdown.com/sprites/ani-back/mewtwo.gif",
+        deranged: "http://rs522.pbsrc.com/albums/w348/Richtoon18/b3617568f13aa750c57eacc45d0b2da7.gif~c200",
+        sleep: "https://31.media.tumblr.com/4dd7682db26ac687ef81f0dd06794652/tumblr_msesq5uAIk1r93jsro1_500.gif"
+      },
+      hp: {
+        current: 500,
+        total: 500
+      },
+      attacks: [
+        {
+          name: "confusion",
+          hp: randomNum(40,20),
+          avail: {
+            total: 30,
+            remaining: 30
+          }
+        },
+        {
+          name: "psycho cut",
+          hp: randomNum(60,45),
+          avail: {
+            total: 10,
+            remaining: 10
+          }
+        },
+        {
+          name: "aura sphere",
+          hp: randomNum(75,60),
+          avail: {
+            total: 5,
+            remaining: 5
+          }
+        },
+        {
+          name: "future sight",
           hp: randomNum(160, 130),
           avail: {
             total: 2,
